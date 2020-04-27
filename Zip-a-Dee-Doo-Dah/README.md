@@ -1,4 +1,14 @@
 ```
+1. linux
+2. bash 
+3. shell script
+3. tar
+4. gzip
+5. unzip
+6. fcrackzip
+7. password.txt
+```
+```
 $ time bash loop.sh; more flag.txt
 1819.gz
 1818.tar

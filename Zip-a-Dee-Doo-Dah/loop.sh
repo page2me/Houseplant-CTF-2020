@@ -12,7 +12,7 @@ do
       out=`tar -kxvf $x.$typ`
       ;;
     zip)
-      pas=`fcrackzip -Du $x.$typ -p rockyou.txt|grep "=="|cut -f3 -d= |tr -d ' \n'`
+      pas=`fcrackzip -Du $x.$typ -p password.txt|grep "=="|cut -f3 -d= |tr -d ' \n'`
       echo $x.$typ:$pas
       out=`unzip -oP $pas $x.$typ`
       ;;

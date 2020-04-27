@@ -3,7 +3,7 @@ x=1819
 while [ $x -gt -1  ]
 do
   typ=`ls $x.*|cut -f2 -d.`
-  #echo $x.$typ
+  echo $x.$typ
   case $typ in
     gz)
       out=`gzip -fkNd $x.$typ`
@@ -13,7 +13,7 @@ do
       ;;
     zip)
       pas=`fcrackzip -Du $x.$typ -p password.txt|grep "=="|cut -f3 -d= |tr -d ' \n'`
-      echo $x.$typ:$pas
+      #echo $x.$typ:$pas
       out=`unzip -oP $pas $x.$typ`
       ;;
   esac

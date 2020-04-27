@@ -1,5 +1,5 @@
 ```
-$ bash loop.sh; more flag.txt
+$ time bash loop.sh; more flag.txt
 1819.gz
 ..
 ..

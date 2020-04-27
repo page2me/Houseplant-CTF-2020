@@ -1,11 +1,21 @@
 ```
 $ time bash loop.sh; more flag.txt
 1819.gz
+1818.tar
+1817.tar
+1816.gz
+1815.zip
+1814.tar
 ..
 ..
 ..
+6.zip
+5.zip
+4.zip
+3.zip
+2.zip
+1.tar
 0.gz
-
 
 real    0m17.057s
 user    0m13.506s

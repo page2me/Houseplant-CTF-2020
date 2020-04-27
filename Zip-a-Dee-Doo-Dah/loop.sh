@@ -3,7 +3,7 @@ x=1819
 while [ $x -gt -1  ]
 do
   typ=`ls $x.*|cut -f2 -d.`
-  #echo $x.$typ
+  echo $x.$typ
   case $typ in
     gz)
       out=`gzip -fkNd $x.$typ`

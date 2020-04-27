@@ -13,7 +13,7 @@ do
       ;;
     zip)
       pas=`fcrackzip -Du $x.$typ -p password.txt|grep "=="|cut -f3 -d= |tr -d ' \n'`
-      echo $x.$typ:$pas
+      #echo $x.$typ:$pas
       out=`unzip -oP $pas $x.$typ`
       ;;
   esac

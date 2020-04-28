@@ -6,7 +6,7 @@ def checkpass():
   key = codecs.encode(key, "rot_13")
   a = nope(key,userinput)
   b = str.encode(a)
-  c = base64.b64encode (b, altchars=None)
+  c = base64.b64encode(b, altchars=None)
   c = str(c)
   d = codecs.encode(c, 'rot_13')
   result = wow(d)

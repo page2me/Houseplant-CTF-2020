@@ -3,3 +3,4 @@
 - https://houseplant.riceteacatpanda.wtf/challenges
 - https://gchq.github.io/CyberChef/
 - https://github.com/Ganapati/RsaCtfTool
+- https://zxing.org/w/decode.jspx

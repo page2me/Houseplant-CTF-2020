@@ -1,0 +1,47 @@
+elevator lolwat
+  action main
+    show 114
+    show 116
+    show 99
+    show 112
+    show 123
+    show 78
+    show 111
+    show 116
+    show 32
+    show 113
+    show 117
+    show 105
+    show 116
+    show 101
+    show 32
+    show 110
+    show 111
+    show 114
+    show 109
+    show 97
+    show 108
+    show 32
+    show 115
+    show 116
+    show 101
+    show 103
+    show 111
+    show 95
+    show 52
+    show 120
+    show 98
+    show 98
+    show 52
+    show 53
+    show 103
+    show 121
+    show 116
+    show 106
+    show 125
+  end action
+  action show num
+    floor num
+    outFloor
+  end action
+end elevator
